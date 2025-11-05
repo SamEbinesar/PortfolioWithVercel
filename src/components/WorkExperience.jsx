@@ -3,9 +3,9 @@ import './WorkExperience.css'
 const WorkExperience = () => {
   const experience = {
     title: 'Full Stack Developer',
-    company: 'KodNest Technologies',
-    location: 'Remote – Bangalore, Karnataka',
-    period: 'May 2025 – Now',
+    company: 'RPN Tech World',
+    location: 'Remote – Chennai',
+    period: 'Nov 2025 - Dec 2025',
     responsibilities: [
       'Intensive Full Stack Development training covering frontend, backend and database integration.',
       'Worked with JDBC, Servlets and Spring Boot Frameworks',
