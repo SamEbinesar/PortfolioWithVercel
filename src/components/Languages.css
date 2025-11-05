@@ -1,0 +1,53 @@
+.languages {
+  background: var(--white);
+}
+
+.languages-list {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.language-item {
+  background: var(--bg-color);
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.1rem;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+
+.language-item:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-hover);
+  background: var(--primary-color);
+  color: var(--white);
+}
+
+.language-name {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.language-item:hover .language-name {
+  color: var(--white);
+}
+
+.language-proficiency {
+  color: #666;
+}
+
+.language-item:hover .language-proficiency {
+  color: var(--white);
+}
+
+@media (max-width: 768px) {
+  .language-item {
+    font-size: 1rem;
+    padding: 1.2rem;
+  }
+}
+

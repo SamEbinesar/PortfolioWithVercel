@@ -1,0 +1,26 @@
+.declaration {
+  background: var(--bg-color);
+  text-align: center;
+}
+
+.declaration-text {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-color);
+  font-style: italic;
+  padding: 2rem;
+  background: var(--white);
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  border-left: 4px solid var(--primary-color);
+}
+
+@media (max-width: 768px) {
+  .declaration-text {
+    font-size: 1rem;
+    padding: 1.5rem;
+  }
+}
+

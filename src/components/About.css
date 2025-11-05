@@ -1,0 +1,27 @@
+.about {
+  background: var(--white);
+}
+
+.about-content {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.about-content p {
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+.about-content strong {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    font-size: 1rem;
+  }
+}
+
